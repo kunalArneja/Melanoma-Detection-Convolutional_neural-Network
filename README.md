@@ -11,11 +11,11 @@ To build a CNN based model which can accurately detect melanoma. Melanoma is a t
 ## Conclusions
 
 - Model 1 - with dropout, no l2 regularisation, no batch normalisation
-- Result - train accuracy ~, while validation accuracy was ~. So the model was overfitting.
+- Result - train accuracy ~80, while validation accuracy was ~30. So the model was overfitting.
 - Model 2 - applied data augumentation strategy - with dropout, l2 regularisation, and batch normalisation
-- Result - train accuracy ~, while validation accuracy was ~. So the model was overfitting less but the validation accuracy were still lower.
+- Result - train accuracy ~60, while validation accuracy was ~35. So the model was overfitting less but the validation accuracy were still lower.
 - Model 3 - applied augumentation strategy to reduce class imbalances
-- Result - train accuracy ~, while validation accuracy was ~.
+- Result - train accuracy ~75, while validation accuracy was ~40.
 
 ## Contact
 
